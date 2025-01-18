@@ -166,7 +166,7 @@ function convertNum() {
         {
             numInWords = "Un billion " + numInWords;
         }
-        numInWords = getThreeDegits(trilions) + " billions " + numInWords;
+        else numInWords = getThreeDegits(trilions) + " billions " + numInWords;
     }
     
     if (numInWords == "")
